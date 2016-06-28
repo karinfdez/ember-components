@@ -1,0 +1,7 @@
+	<p>List of students</p>
+	<button {{action 'remove'}}>Remove</button>
+	<button {{action 'reset'}}>Reset</button><br>
+	{{#each listOfStudents as |student|}}
+		{{student}}<br>
+	{{/each}}
+{{yield}}
