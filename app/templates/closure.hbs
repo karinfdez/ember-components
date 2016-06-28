@@ -1,1 +1,9 @@
+
+{{! all closures actions must have parentheses }}
+List of students using closure actions
+{{student-list onRemove=(action 'removeController') onReset=(action 'resetController')}}
+
+{{#each model as |student|}}
+	{{student}}<br>
+{{/each}}
 {{outlet}}

@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('closure');
+  this.route('properties');
 });
 
 export default Router;
